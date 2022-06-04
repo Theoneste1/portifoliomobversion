@@ -514,13 +514,8 @@ article {
   transition: all 0.4s ease 0.2s;
 }
 
-.contact-form-section button {
-  margin-top: 7px;
-  transition: all 0.4s ease 0.2s;
-}
 
-.about button,
-.contact-form-section button {
+.about button{
   height: 48px;
   width: 159px;
   font-size: 17px;
@@ -626,42 +621,9 @@ article {
   color: #344563;
   margin-bottom: 24px;
 }
-
-section.contact-form-section {
-  flex-direction: column;
-  justify-content: space-around;
-  text-align: center;
-  background-image: url("../images/illustration-contact-form@2x.png");
-  background-repeat: no-repeat;
-  background-size: 10%;
-  background-position: right 98%;
-}
-
 .form-sub-container {
   min-width: 307px;
   width: 80%;
-}
-
-.contact-form-section h2 {
-  width: 100%;
-  padding: 0 0 58px;
-}
-
-.contact-form-section input {
-  margin: 5px 5px 24px;
-  border: 1px solid #d0d9d4;
-  border-radius: 4px;
-  padding: 15px 16px;
-  width: 95%;
-  font-size: 16px;
-}
-
-.contact-form-section textarea {
-  margin-bottom: 24px;
-  border-radius: 4px;
-  padding: 12px;
-  width: 95%;
-  font-size: 16px;
 }
 
 input:focus,
@@ -970,15 +932,6 @@ footer::after {
     width: 100%;
   }
 
-  section.contact-form-section {
-    width: 100%;
-    background-image: none;
-    background-image: url("../images/illustration-1-contact-form-desktop@2x.png"), url("../images/illustration-2-contact-form-desktop@2x.png"), url("../images/contact\ form-illustratoin-3-desktop@2x.png");
-    background-position: left bottom, 30% bottom, right bottom;
-    background-size: 14%;
-    background-repeat: no-repeat;
-  }
-
   .form-sub-container {
     width: calc(738px + 24px);
     display: flex;
@@ -987,16 +940,6 @@ footer::after {
     text-align: left;
     height: 490px;
     padding-top: 0;
-  }
-
-  .contact-form-section h2 {
-    width: 39%;
-    font-size: 30px;
-    line-height: 48px;
-  }
-
-  .contact-form-section form {
-    width: 58%;
   }
 }
 
