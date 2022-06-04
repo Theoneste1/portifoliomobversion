@@ -514,8 +514,7 @@ article {
   transition: all 0.4s ease 0.2s;
 }
 
-
-.about button{
+.about button {
   height: 48px;
   width: 159px;
   font-size: 17px;
@@ -621,6 +620,7 @@ article {
   color: #344563;
   margin-bottom: 24px;
 }
+
 .form-sub-container {
   min-width: 307px;
   width: 80%;
